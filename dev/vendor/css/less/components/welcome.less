@@ -1,0 +1,41 @@
+//
+// Welcome
+// --------------------------------------------------
+
+.welcome {
+  background: @gray-darker;
+  height: 90%;
+  left: 0; right: 0;
+  position: fixed;
+
+  .title {
+    color: #fff;
+    margin-bottom: @space;
+
+    .green  { color: @brand-success; }
+    .yellow { color: @brand-warning; }
+  }
+
+  .subtitle {
+    color: @gray-light;
+    display: block;
+    font-size: 80%;
+  }
+
+  .text {
+    border-top: @gray-dark solid 1px;
+    color: @gray-light;
+    display: inline-block;
+    margin-bottom: 0;
+    padding-top: (@space / 2);
+  }
+}
+
+.welcome-container {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  .translate(-50%, -50%);
+  width: 80%;
+}

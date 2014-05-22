@@ -116,6 +116,12 @@ grunt.initConfig({
         'Gruntfile.js'
       ],
       tasks : ['uglify']
+    },
+    html: {
+      files : [
+        '<%= config.dev %>*.html'
+      ],
+      tasks : ['htmlmin']
     }
   },
 
@@ -133,6 +139,9 @@ grunt.initConfig({
     options: {
       watchTask: true,
       host : '',
+      server: {
+        baseDir: '<%= config.dist %>'
+      },
       ghostMode: {
         scroll: true,
         links: true,

@@ -9,11 +9,11 @@
 // For recommendations on resolving such conflicts, see
 // http://getbootstrap.com/getting-started/#third-box-sizing
 * {
-  .box-sizing(border-box);
+  box-sizing: border-box;
 }
 *:before,
 *:after {
-  .box-sizing(border-box);
+  box-sizing: border-box;
 }
 
 
@@ -25,26 +25,22 @@ html {
 }
 
 body {
-  font-family: @font-family-base;
-  font-size: @font-size-base;
-  line-height: @line-height-base;
-  color: @text-color;
-  background-color: @body-bg;
+  font-family: Helvetica, arial;
+  font-size: 20px;
+  line-height: 26px;
+  color: @gray-darker;
+  background-color: #fff;
 }
 
 // Links
 
 a {
-  color: @link-color;
+  color: @gray-dark;
   text-decoration: none;
 
   &:hover,
   &:focus {
-    color: @link-hover-color;
+    color: @gray;
     text-decoration: underline;
-  }
-
-  &:focus {
-    .tab-focus();
   }
 }

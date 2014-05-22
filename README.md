@@ -1,4 +1,4 @@
-Survey - Front-End <span style="color: #00b527">Bra</span><span style="color: #f4e800">sil</span>
+Survey - Front-End - Brasil
 =======
 
 Pesquisa de mercado realizada entre Desenvolvedores Front-End.
