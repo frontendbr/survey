@@ -1,0 +1,34 @@
+//
+// Btn
+// ----------------------
+
+.btn {
+  border: @gray-dark solid 1px;
+  border-radius: 2px;
+  color: @gray-dark;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  padding: 8px 15px;
+  text-decoration: none;
+  text-align: center;
+  min-width: 60px;
+  position: relative;
+
+  &:hover,
+  &:focus {
+    border-color: darken(@gray-lighter, 5%);
+    color: darken(@gray-lighter, 5%);
+    text-decoration: none;
+  }
+
+  &.btn-big {
+    font-size: 18px;
+    padding: 15px 20px;
+    min-width: 100px;
+  }
+
+  + .btn { margin-left: @space; }
+
+}
+
