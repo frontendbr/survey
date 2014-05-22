@@ -1,0 +1,23 @@
+{
+  "name": "survey",
+  "version": "1.0.0",
+  "title": "Survey - Front-End Brasil",
+  "homepage": "http://www.felipefialho.com/survey",
+  "author": {
+    "name": "Luiz Felipe Tartarotti Fialho",
+    "email": "hi@felipefialho.com",
+    "url": "http://www.felipefialho.com/"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-uglify": "~0.2.1",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-contrib-less": "~0.10.0",
+    "grunt-contrib-htmlmin": "~0.1.3",
+    "load-grunt-tasks": "~0.1.0",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-browser-sync": "~0.5.7",
+    "css-parse": "~1.5.3",
+    "grunt-combine-media-queries": "~1.0.14"
+  }
+}
