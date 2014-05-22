@@ -19,7 +19,7 @@ Issues e commits devem ser enviados em pt-BR.
   # ---------------
 
   # 1. Fork esse repositório e clone
-  git clone https://github.com/<your-username>/css-components.git
+  git clone https://github.com/<your-username>/survey.git
 
   # 2. Navegue até a nova pasta
   cd survey
