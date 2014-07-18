@@ -1,0 +1,13 @@
+// Contextual backgrounds
+
+.bg-variant(@color) {
+  background-color: @color;
+  a&:hover {
+    background-color: darken(@color, 10%);
+  }
+}
+
+// RBA Convert
+.bg-transparent(@color, @alpha: 1) {
+  background: rgba( red(@color), green(@color), blue(@color), @alpha);
+}

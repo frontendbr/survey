@@ -2,6 +2,8 @@
 // Typography
 // --------------------------------------------------
 
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+
 // Headings
 // -------------------------
 
@@ -12,9 +14,14 @@ h1 {
   margin-bottom: @space;
 
   @media (min-width: @screen-sm-min) {
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 50px;
+    line-height: 60px;
   }
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 40px;
 }
 
 // Body text
@@ -24,6 +31,15 @@ p {
   margin: 0 0 @space;
 }
 
-small {
+.text-big {
+  color: @brand-success;
+  font-size: 1200%;
+  line-height: 100%;
+}
+
+.text-small {
   font-size: 60%;
 }
+
+.green  { color: @brand-success; }
+.yellow { color: @brand-warning; }

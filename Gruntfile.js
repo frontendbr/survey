@@ -13,14 +13,14 @@ var PathConfig = {
 // Set scripts
 var scripts = [
 
-  // Jquery
+  // Dependencies
   '<%= config.dev %>**/jquery-2.1.1.min.js',
+  '<%= config.dev %>**/raphael-min.js',
 
-  // Plugins Jquery
-  '<%= config.dev %>**/jquery.peity.min.js',
+  // Morris
+  '<%= config.dev %>**/morris.min.js',
 
   // General starting
-  '<%= config.dev %>**/_functions.js', // Functions
   '<%= config.dev %>**/main.js' // Rules
 
 ];
@@ -108,7 +108,7 @@ grunt.initConfig({
       files : [
         '<%= config.dev %>**/*.less'
       ],
-      tasks : ['less']
+      tasks : ['less:dev']
     },
     js: {
       files : [

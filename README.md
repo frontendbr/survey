@@ -1,13 +1,13 @@
 Survey - Front-End - Brasil
 =======
 
-Pesquisa de mercado realizada entre Desenvolvedores Front-End.
+Pesquisa de mercado realizada entre Desenvolvedores Front-End brasileiros.
 
 [Visualizar o projeto](http://www.felipefialho.com/survey)
 
 ## Contribuição
 
-Por favor leia o [Coding Style](https://github.com/LFeh/coding-style/) para [Issues](https://github.com/LFeh/css-components/issues) e as regras de código.
+Por favor leia o [Coding Style](https://github.com/LFeh/coding-style/) para [Issues](https://github.com/LFeh/survey/issues) e as regras de código.
 
 Todas as alterações devem ser feitas na pasta `/dev`. O CSS precisa ser modificado usando o pré-processador **LESS**.
 
@@ -31,7 +31,7 @@ Issues e commits devem ser enviados em pt-BR.
   # Development
   # -----------
 
-  # Paara assistir as alterações no .less e no .js rode o comando
+  # Para assistir as alterações no .less e no .js rode o comando
   grunt w
 
   # Build o projeto para deploy
@@ -40,4 +40,4 @@ Issues e commits devem ser enviados em pt-BR.
 
 ## License
 
-[MIT License](http://felipefialho.mit-license.org/) © Luiz Felipe Tartarotti Fialho
+[MIT License](http://felipefialho.mit-license.org/) © [Luiz Felipe Tartarotti Fialho](http://www.felipefialho.com/) e [Raphael Fabeni](http://www.raphaelfabeni.com.br/)
