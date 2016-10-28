@@ -482,7 +482,7 @@
       label: "★★★★★"
     }],
     formatter: function(y) {
-      return y + "%";
+      return Math.round(y / dataResponse * 100) + "%";
     }
   }), Morris.Donut({
     element: "chart-css",
@@ -500,7 +500,7 @@
       label: "★★★★★"
     }],
     formatter: function(y) {
-      return y + "%";
+      return Math.round(y / dataResponse * 100) + "%";
     }
   }), Morris.Donut({
     element: "chart-js",
@@ -521,7 +521,7 @@
       label: "★★★★★"
     }],
     formatter: function(y) {
-      return y + "%";
+      return Math.round(y / dataResponse * 100) + "%";
     }
   }), Morris.Donut({
     element: "chart-ux",
@@ -542,7 +542,7 @@
       label: "★★★★★"
     }],
     formatter: function(y) {
-      return y + "%";
+      return Math.round(y / dataResponse * 100) + "%";
     }
   }), Morris.Donut({
     element: "chart-template",
@@ -563,7 +563,7 @@
       label: "★★★★★"
     }],
     formatter: function(y) {
-      return y + "%";
+      return Math.round(y / dataResponse * 100) + "%";
     }
   }), Morris.Donut({
     element: "chart-pre-processors",
@@ -584,7 +584,7 @@
       label: "★★★★★"
     }],
     formatter: function(y) {
-      return y + "%";
+      return Math.round(y / dataResponse * 100) + "%";
     }
   }), Morris.Donut({
     element: "chart-libs",
@@ -605,7 +605,7 @@
       label: "★★★★★"
     }],
     formatter: function(y) {
-      return y + "%";
+      return Math.round(y / dataResponse * 100) + "%";
     }
   }), Morris.Donut({
     element: "chart-web-app",
@@ -626,7 +626,7 @@
       label: "★★★★★"
     }],
     formatter: function(y) {
-      return y + "%";
+      return Math.round(y / dataResponse * 100) + "%";
     }
   }), Morris.Donut({
     element: "chart-node",
@@ -647,7 +647,7 @@
       label: "★★★★★"
     }],
     formatter: function(y) {
-      return y + "%";
+      return Math.round(y / dataResponse * 100) + "%";
     }
   }), Morris.Donut({
     element: "chart-tasks",
@@ -668,7 +668,7 @@
       label: "★★★★★"
     }],
     formatter: function(y) {
-      return y + "%";
+      return Math.round(y / dataResponse * 100) + "%";
     }
   }), Morris.Donut({
     element: "chart-en",
@@ -689,7 +689,7 @@
       label: "★★★★★"
     }],
     formatter: function(y) {
-      return y + "%";
+      return Math.round(y / dataResponse * 100) + "%";
     }
   }), Morris.Donut({
     element: "chart-spa",
@@ -710,7 +710,7 @@
       label: "★★★★★"
     }],
     formatter: function(y) {
-      return y + "%";
+      return Math.round(y / dataResponse * 100) + "%";
     }
   }), Morris.Donut({
     element: "chart-blog",
