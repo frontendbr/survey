@@ -1,11 +1,10 @@
 //
 // Structure
 // --------------------------------------------------
-
 .wrap {
   background: #fff;
-  position: absolute;
-  top: 90%; left: 0; right: 0;
+  position: relative;
+  margin-top: 90vh;
   z-index: 2;
 }
 
@@ -17,18 +16,18 @@
 
 // Section
 // --------------------------------------------------
-
 .section {
   .clearfix();
   padding-top: (@space * 3);
   padding-bottom: (@space * 3);
-
-  + .section { border-top: solid 1px #ccc; }
-
+  + .section {
+    border-top: solid 1px #ccc;
+  }
   .tip,
   .title,
-  .subtitle { text-align: center; }
-
+  .subtitle {
+    text-align: center;
+  }
   .tip {
     display: block;
     font-weight: normal;
@@ -37,11 +36,9 @@
     font-style: italic;
     line-height: 1;
   }
-
   .title {
     margin-bottom: (@space * 2);
   }
-
   .subtitle {
     color: @gray-darker;
     padding-top: 60px;
@@ -50,11 +47,9 @@
 
 // Featured
 // --------------------------------------------------
-
 .featured {
   padding: 20% 0;
   text-align: center;
-
   .text-big {
     display: block;
   }
@@ -62,10 +57,8 @@
 
 // Grid
 // --------------------------------------------------
-
 .grid {
   margin-bottom: @space;
-
   @media (min-width: @screen-sm-min) {
     display: inline-block;
     vertical-align: bottom;
@@ -73,22 +66,18 @@
   }
 }
 
-
 // Chart
 // --------------------------------------------------
-
 .chart {
   display: block;
   margin: 0 auto;
   width: 380px;
   height: 380px;
-
   // Hide Elements
   &.hidden {
     display: none;
     visibility: hidden;
   }
-
   @media (min-width: @screen-sm-min) {
     width: 500px;
     height: 500px;

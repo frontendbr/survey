@@ -28,12 +28,15 @@ p {
 
 .text-big {
   color: @brand-success;
-  font-size: 1200%;
+  font-size: 12rem;
   line-height: 100%;
+  @media (min-width: @screen-sm-min) {
+    font-size: 22rem;
+  }
 }
 
 .text-small {
-  font-size: 60%;
+  font-size: .6em;
 }
 
 .text-center {
