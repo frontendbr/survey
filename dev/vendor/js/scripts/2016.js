@@ -99,6 +99,25 @@
       value: 85,
       label: "Sul"
     }],
+    dataYears = [{
+      value: 63,
+      label: "1 ano ou menos"
+    }, {
+      value: 53,
+      label: "10 anos ou mais"
+    }, {
+      value: 130,
+      label: "2 anos - 3 anos"
+    }, {
+      value: 125,
+      label: "4 anos - 5 anos"
+    }, {
+      value: 59,
+      label: "6 anos - 7 anos"
+    }, {
+      value: 36,
+      label: "8 anos - 9 anos"
+    }],
     dataLevels = [{
       value: 230,
       label: "Pleno"
@@ -359,6 +378,32 @@
     }, {
       value: 7,
       label: "R$ 4 mil a R$ 5 mil"
+    }],
+    dataEvents = [{
+      value: 66,
+      label: "Nenhum"
+    }, {
+      value: 85,
+      label: "1"
+    }, {
+      value: 120,
+      label: "2"
+    }, {
+      value: 65,
+      label: "3"
+    }, {
+      value: 29,
+      label: "4"
+    }, {
+      value: 100,
+      label: "5 ou mais"
+    }],
+    dataEventsOut = [{
+      value: 167,
+      label: "Sim"
+    }, {
+      value: 299,
+      label: "Não"
     }];
 
   Morris.Donut({
@@ -373,6 +418,12 @@
   }), Morris.Donut({
     element: "chart-regions",
     data: dataRegions,
+    formatter: function(y) {
+      return Math.round(y / dataResponse * 100) + "%";
+    }
+  }), Morris.Donut({
+    element: "chart-years",
+    data: dataYears,
     formatter: function(y) {
       return Math.round(y / dataResponse * 100) + "%";
     }
@@ -463,6 +514,18 @@
   }), Morris.Donut({
     element: "chart-freela-money",
     data: dataFreelaMoney,
+    formatter: function(y) {
+      return Math.round(y / dataResponse * 100) + "%";
+    }
+  }), Morris.Donut({
+    element: "chart-events",
+    data: dataEvents,
+    formatter: function(y) {
+      return Math.round(y / dataResponse * 100) + "%";
+    }
+  }), Morris.Donut({
+    element: "chart-events-out",
+    data: dataEventsOut,
     formatter: function(y) {
       return Math.round(y / dataResponse * 100) + "%";
     }
