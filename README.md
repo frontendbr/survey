@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="src/images/logo.png" width="200">
-</p>
-
 # Survey Front-end Brasil
 
 > Pesquisa salarial entre frontenders do Brasil
