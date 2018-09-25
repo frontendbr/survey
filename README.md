@@ -1,7 +1,7 @@
-Survey - Front-End - Brasil
+Survey - Front-End
 =======
 
-Pesquisa de mercado realizada entre Desenvolvedores Front-End brasileiros.
+Pesquisa de mercado realizada entre front-end developers do Brasil.
 
 [Visualizar o projeto](http://www.felipefialho.com/survey)
 
@@ -36,8 +36,4 @@ Issues e commits devem ser enviados em pt-BR.
 
   # Build o projeto para deploy
   grunt build
-  ```
-
-## License
-
-[MIT License](http://felipefialho.mit-license.org/) © [Luiz Felipe Tartarotti Fialho](http://www.felipefialho.com/) e [Raphael Fabeni](http://www.raphaelfabeni.com.br/)
+  ``` 
