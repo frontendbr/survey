@@ -1,0 +1,51 @@
+// -------------------------------------------------
+// Welcome
+// -------------------------------------------------
+
+@import '../../styles/core';
+
+.host
+  $host-height = 60vh
+  align-items center
+  background-color $gray-darker
+  color $gray-lighter
+  display flex
+  font-size 2rem
+  height $host-height
+  justify-content center
+  left 0
+  padding $space
+  position fixed
+  right 0
+  top 0
+
+  & + *
+    margin-top $host-height
+
+.title
+  font-size 3em
+  color $white
+
+.green
+  color $green
+
+.yellow
+  color $yellow
+
+.actions
+  font-size .8em
+  margin-top $space-sm
+
+.link
+  color $blue-light
+  text-decoration none
+
+  &:not(:last-child)
+    margin-right $space-xs
+
+  &:not(:first-child)
+    margin-left $space-xs
+
+  &:focus
+  &:hover
+    text-decoration underline
