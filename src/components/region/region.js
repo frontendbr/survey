@@ -1,0 +1,1 @@
+import './region.styl';
