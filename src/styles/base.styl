@@ -1,0 +1,31 @@
+*
+  box-sizing border-box
+  margin 0
+  padding 0
+
+  &:before
+  &:after
+    box-sizing border-box
+
+  &:hover
+  &:focus
+    outline transparent
+
+a
+  cursor pointer
+
+html
+  -moz-osx-font-smoothing auto
+  -webkit-font-smoothing auto
+  font-size 10px
+  font-size responsive 8px 10px
+
+body
+  -webkit-overflow-scrolling touch
+  background-color $gray-white
+  color $gray-darker
+  font-family 'Open Sans', Arial, sans-serif
+  font-size 1.8rem
+  font-smoothing auto
+  overflow-x hidden
+

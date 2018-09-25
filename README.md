@@ -1,39 +1,73 @@
-Survey - Front-End
-=======
+<p align="center">
+  <img src="src/images/logo.png" width="200">
+</p>
 
-Pesquisa de mercado realizada entre front-end developers do Brasil.
+# Survey Front-end Brasil
 
-[Visualizar o projeto](http://www.felipefialho.com/survey)
+> Pesquisa salarial entre frontenders do Brasil
 
-## Contribuição
+[![license](https://img.shields.io/github/license/LFeh/survey.svg)](./license.md)
+[![GitHub contributors](https://img.shields.io/github/contributors/LFeh/survey.svg)](https://github.com/LFeh/survey/graphs/contributors)
 
-Por favor leia o [Coding Style](https://github.com/LFeh/coding-style/) para [Issues](https://github.com/LFeh/survey/issues) e as regras de código.
+## Getting Started
 
-Todas as alterações devem ser feitas na pasta `/dev`. O CSS precisa ser modificado usando o pré-processador **LESS**.
+```sh
+# install dependencies
+$ npm i
 
-Issues e commits devem ser enviados em pt-BR.
+# Run the project
+$ npm start
+```
 
-  ```bash
+With the commands above, you have everything to start.
+ 
+## About CSS
+ 
+### Post CSS libs
 
-  # Getting Started
-  # ---------------
+For grid system uses [Autoprefixer](https://github.com/postcss/autoprefixer) to make easy use browser prefixes, [Lost](https://github.com/peterramsing/lost) with some help from, [Rucksack](http://simplaio.github.io/rucksack/) for animations, reset and a lot of great mixins, [Rupture](https://github.com/jenius/rupture) for responsive utilities. And [Font Magician](https://github.com/jonathantneal/postcss-font-magician/) to get the webfonts.
 
-  # 1. Fork esse repositório e clone
-  git clone https://github.com/<your-username>/survey.git
+### CSS Modules
 
-  # 2. Navegue até a nova pasta
-  cd survey
+To make easier create your components and avoid a lot of problems, it boilerplate use [CSS Modules](https://github.com/css-modules/css-modules).
 
-  # 3. Instale as dependências
-  npm install
+Example
 
+```css
+.host
+  text-align center
 
-  # Development
-  # -----------
+.title
+  font-size 4rem
 
-  # Para assistir as alterações no .less e no .js rode o comando
-  grunt w
+.description
+  font-size 2rem
+```
 
-  # Build o projeto para deploy
-  grunt build
-  ``` 
+After the transformation it will become like this
+
+```css
+._host_4897k_1 {
+  text-align: center;
+}
+
+._title_4897k_9 {
+  font-size: 4rem;
+}
+
+._description_4897k_12 {
+  font-size: 2rem;
+}
+```
+
+## Tasks
+
+- `npm start`: run all tasks and initialize watch for changes and a server
+- `npm run build`: run all production tasks create a `dist` folder to deploy
+- `npm run lint`: lint javascript and css
+- `npm run fix`: command to fix all eslint errors
+- `npm run deploy`: run all tasks to build and deploy on gh-pages
+
+## License
+
+MIT License © Felipe Fialho
