@@ -18,9 +18,13 @@
   position fixed
   right 0
   top 0
+  z-index $zindex-default
 
   & + *
+    background-color $white
     margin-top $host-height
+    position relative
+    z-index $zindex-default + 1
 
 .title
   font-size 3em
