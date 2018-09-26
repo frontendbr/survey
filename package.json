@@ -32,7 +32,9 @@
     ],
     "noprompt": true
   },
-  "dependencies": {},
+  "dependencies": {
+    "chart.js": "^2.7.2"
+  },
   "devDependencies": {
     "autoprefixer": "^9.0.0",
     "babel-core": "^6.26.3",
