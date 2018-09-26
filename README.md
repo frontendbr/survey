@@ -2,8 +2,8 @@
 
 > Pesquisa salarial entre frontenders do Brasil
 
-[![license](https://img.shields.io/github/license/LFeh/survey.svg)](./license.md)
-[![GitHub contributors](https://img.shields.io/github/contributors/LFeh/survey.svg)](https://github.com/LFeh/survey/graphs/contributors)
+[![license](https://img.shields.io/github/license/frontendbr/survey.svg)](./license.md)
+[![GitHub contributors](https://img.shields.io/github/contributors/frontendbr/survey.svg)](https://github.com/frontendbr/survey/graphs/contributors)
 
 ## Getting Started
 
@@ -16,7 +16,17 @@ $ npm start
 ```
 
 With the commands above, you have everything to start.
- 
+
+## About API
+
+```
+https://gist.githubusercontent.com/diogomoretti/b010baa011ba8a29b31a48ce80d3b623/raw/44213f1036c3d037947ebc3732be31f6eecb1b49/survey2018.json
+```
+
+## About libs
+
+This project use [ChartJS](chartjs.org) to make a charts.
+
 ## About CSS
  
 ### Post CSS libs
@@ -66,4 +76,4 @@ After the transformation it will become like this
 
 ## License
 
-MIT License © Felipe Fialho
+MIT License © Front-end BR
