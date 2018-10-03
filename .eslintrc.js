@@ -1,3 +1,5 @@
+const isProduction = process.env.NODE_ENV === 'production';
+
 module.exports = {
   env: {
     browser: true,
@@ -14,6 +16,7 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
+    'no-console': !isProduction,
     indent: ['error', 2],
     'no-unused-vars': [1, { vars: 'local', args: 'none' }],
     'linebreak-style': 'off',
