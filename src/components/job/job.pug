@@ -1,0 +1,7 @@
+- var css = require('./job-css.json');
+
+section(class=css.host) 
+  h1(class=css.title) Você trabalha em qual regime de contratação?
+
+  article(class=css.chart)
+    canvas(class=css.canvas width='300' height='300' data-chart='job')
