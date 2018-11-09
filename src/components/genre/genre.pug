@@ -1,0 +1,7 @@
+- var css = require('./genre-css.json');
+
+section(class=css.host) 
+  h1(class=css.title) Respostas por gênero
+
+  article(class=css.chart)
+    canvas(class=css.canvas width='300' height='300' data-chart='genre')
