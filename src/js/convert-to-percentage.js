@@ -1,3 +1,3 @@
-const ConvertToPercentage = (portion) => `${(( portion / 1005) * 100).toFixed(2)}%`;
+const ConvertToPercentage = ({ portion, quantity }) => `${((portion / quantity) * 100).toFixed(2)}%`;
 
 export { ConvertToPercentage };
