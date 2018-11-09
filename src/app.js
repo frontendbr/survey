@@ -1,14 +1,15 @@
 import * as offline from 'offline-plugin/runtime';
-import Chart from 'chart.js';
 
 import './app.styl';
-import './components/welcome/welcome.js';
-import './components/introduction/introduction.js';
-import './components/region/region.js';
-import './components/footer/footer.js';
+import './components/welcome/welcome';
+import './components/introduction/introduction';
+import './components/region/region';
+import './components/footer/footer';
 
 offline.install({
   onUpdateReady: function() {
     offline.applyUpdate();
   }
 });
+ 
+
