@@ -1,0 +1,1040 @@
+[
+  {
+    "question": "Você mora em qual estado? (Caso more fora do país escreva em \"outro\") ",
+    "values": [
+      {
+        "answer": "São Paulo",
+        "count": 406
+      },
+      {
+        "answer": "Irlanda",
+        "count": 1
+      },
+      {
+        "answer": "Minas Gerais",
+        "count": 82
+      },
+      {
+        "answer": "Paraná",
+        "count": 67
+      },
+      {
+        "answer": "Trabalho remoto",
+        "count": 66
+      },
+      {
+        "answer": "Pernambuco",
+        "count": 28
+      },
+      {
+        "answer": "Santa Catarina",
+        "count": 50
+      },
+      {
+        "answer": "Rio Grande do Sul",
+        "count": 44
+      },
+      {
+        "answer": "Amsterdam",
+        "count": 1
+      },
+      {
+        "answer": "Distrito Federal",
+        "count": 19
+      },
+      {
+        "answer": "Rio de Janeiro",
+        "count": 82
+      },
+      {
+        "answer": "Ceará",
+        "count": 31
+      },
+      {
+        "answer": "Bahia",
+        "count": 30
+      },
+      {
+        "answer": "Alagoas",
+        "count": 10
+      },
+      {
+        "answer": "California",
+        "count": 1
+      },
+      {
+        "answer": "Alemanha",
+        "count": 2
+      },
+      {
+        "answer": "Paraíba",
+        "count": 9
+      },
+      {
+        "answer": "Sergipe",
+        "count": 6
+      },
+      {
+        "answer": "Rio Grande do Norte",
+        "count": 3
+      },
+      {
+        "answer": "Mato Grosso",
+        "count": 5
+      },
+      {
+        "answer": "Maranhão",
+        "count": 7
+      },
+      {
+        "answer": "Goiás",
+        "count": 17
+      },
+      {
+        "answer": "Piauí",
+        "count": 5
+      },
+      {
+        "answer": "Espírito Santo",
+        "count": 10
+      },
+      {
+        "answer": "Hoofddorp - Holanda",
+        "count": 1
+      },
+      {
+        "answer": "Roraima",
+        "count": 1
+      },
+      {
+        "answer": "Mato Grosso do Sul",
+        "count": 1
+      },
+      {
+        "answer": "fora do pais",
+        "count": 1
+      },
+      {
+        "answer": "Amazonas",
+        "count": 5
+      },
+      {
+        "answer": "Pará",
+        "count": 3
+      },
+      {
+        "answer": "Brisbane - Australia",
+        "count": 1
+      },
+      {
+        "answer": "Dublin",
+        "count": 1
+      },
+      {
+        "answer": "Orlando/FL USA",
+        "count": 1
+      },
+      {
+        "answer": "Acre",
+        "count": 1
+      },
+      {
+        "answer": "Berlin, Alemanha",
+        "count": 1
+      },
+      {
+        "answer": "Ireland",
+        "count": 1
+      },
+      {
+        "answer": "Tocantins",
+        "count": 1
+      },
+      {
+        "answer": "Portugal ",
+        "count": 1
+      },
+      {
+        "answer": "Cabo Verdde",
+        "count": 1
+      },
+      {
+        "answer": "Nova Zelândia",
+        "count": 1
+      },
+      {
+        "answer": "Portugal",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "question": "Com qual gênero você se identifica?",
+    "values": [
+      {
+        "answer": "Mulher",
+        "count": 109
+      },
+      {
+        "answer": "Homem",
+        "count": 888
+      },
+      {
+        "answer": "Não binário",
+        "count": 2
+      },
+      {
+        "answer": "Prefiro não identificar",
+        "count": 4
+      },
+      {
+        "answer": "Binário",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "question": "Você trabalha em qual regime de contratação?",
+    "values": [
+      {
+        "answer": "CLT",
+        "count": 612
+      },
+      {
+        "answer": "PJ",
+        "count": 213
+      },
+      {
+        "answer": "Freelancer / Empresa própria",
+        "count": 113
+      },
+      {
+        "answer": "Estagiário(a)",
+        "count": 67
+      }
+    ]
+  },
+  {
+    "question": "Em média, você trabalha quantas horas por dia?",
+    "values": [
+      {
+        "answer": "8h",
+        "count": 703
+      },
+      {
+        "answer": "4h",
+        "count": 25
+      },
+      {
+        "answer": "12h ou mais",
+        "count": 29
+      },
+      {
+        "answer": "10h",
+        "count": 128
+      },
+      {
+        "answer": "6h",
+        "count": 120
+      }
+    ]
+  },
+  {
+    "question": "Considerando apenas sua ocupação principal (CLT, PJ ou Freela), qual sua faixa salárial?",
+    "values": [
+      {
+        "answer": "R$3.000,00 a R$5,000,00",
+        "count": 246
+      },
+      {
+        "answer": "R$10.000,00 a R$15.000,00",
+        "count": 47
+      },
+      {
+        "answer": "R$2.000,00 a R$3.000,00",
+        "count": 203
+      },
+      {
+        "answer": "R$7.000,00 a R$10.000,00",
+        "count": 117
+      },
+      {
+        "answer": "Acima de R$15.000,00",
+        "count": 29
+      },
+      {
+        "answer": "R$5.000,00 a R$7.000,00",
+        "count": 148
+      },
+      {
+        "answer": "R$1.000,00 a R$2.000,00",
+        "count": 161
+      },
+      {
+        "answer": "Menos de R$1.000,00",
+        "count": 51
+      },
+      {
+        "answer": "R$2.000,00 a R$2.999,00",
+        "count": 1
+      },
+      {
+        "answer": "R$3.000,00 a R$4,999,00",
+        "count": 1
+      },
+      {
+        "answer": "R$5.000,00 a R$6.999,00",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "question": "Caso faça freelas como trabalho secundário, em média quanto recebe mensalmente?",
+    "values": [
+      {
+        "answer": "Não faço freelas",
+        "count": 604
+      },
+      {
+        "answer": "R$1.000,00 a R$1.999,00",
+        "count": 99
+      },
+      {
+        "answer": "Acima de R$5.000,00",
+        "count": 29
+      },
+      {
+        "answer": "Até R$1.000,00",
+        "count": 172
+      },
+      {
+        "answer": "R$2.000,00 a R$2.999,00",
+        "count": 48
+      },
+      {
+        "answer": "R$3.000,00 a R$3.999,00",
+        "count": 20
+      },
+      {
+        "answer": "R$4.000,00 a R$4.999,00",
+        "count": 21
+      },
+      {
+        "answer": "",
+        "count": 12
+      }
+    ]
+  },
+  {
+    "question": "Há quantos anos você atua na área?",
+    "values": [
+      {
+        "answer": "4 anos - 5 anos",
+        "count": 5
+      },
+      {
+        "answer": "10 anos ou mais",
+        "count": 115
+      },
+      {
+        "answer": "8 anos - 9 anos",
+        "count": 2
+      },
+      {
+        "answer": "2 anos - 3 anos",
+        "count": 4
+      },
+      {
+        "answer": "6 anos  - 7 anos",
+        "count": 1
+      },
+      {
+        "answer": "1 ano ou menos",
+        "count": 109
+      },
+      {
+        "answer": "6 anos - 7 anos",
+        "count": 2
+      },
+      {
+        "answer": "Entre 1 ano e 3 anos",
+        "count": 245
+      },
+      {
+        "answer": "Entre 5 anos e 7 anos",
+        "count": 184
+      },
+      {
+        "answer": "Entre 3 anos e 5 anos",
+        "count": 219
+      },
+      {
+        "answer": "Entre 7 anos e 10 anos",
+        "count": 119
+      }
+    ]
+  },
+  {
+    "question": "Qual seu nível profissional? (Segundo seu julgamento ou o nível em que está registrado)",
+    "values": [
+      {
+        "answer": "Pleno",
+        "count": 409
+      },
+      {
+        "answer": "Tech Lead",
+        "count": 44
+      },
+      {
+        "answer": "Senior",
+        "count": 213
+      },
+      {
+        "answer": "Júnior",
+        "count": 256
+      },
+      {
+        "answer": "Estagiário",
+        "count": 48
+      },
+      {
+        "answer": "Especialista",
+        "count": 35
+      }
+    ]
+  },
+  {
+    "question": "HTML",
+    "values": [
+      {
+        "answer": "4",
+        "count": 355
+      },
+      {
+        "answer": "5",
+        "count": 525
+      },
+      {
+        "answer": "3",
+        "count": 111
+      },
+      {
+        "answer": "2",
+        "count": 8
+      },
+      {
+        "answer": "1",
+        "count": 3
+      },
+      {
+        "answer": "",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "question": "CSS",
+    "values": [
+      {
+        "answer": "4",
+        "count": 403
+      },
+      {
+        "answer": "5",
+        "count": 326
+      },
+      {
+        "answer": "3",
+        "count": 224
+      },
+      {
+        "answer": "2",
+        "count": 38
+      },
+      {
+        "answer": "1",
+        "count": 14
+      }
+    ]
+  },
+  {
+    "question": "JavaScript",
+    "values": [
+      {
+        "answer": "3",
+        "count": 293
+      },
+      {
+        "answer": "5",
+        "count": 212
+      },
+      {
+        "answer": "4",
+        "count": 386
+      },
+      {
+        "answer": "2",
+        "count": 84
+      },
+      {
+        "answer": "1",
+        "count": 28
+      },
+      {
+        "answer": "",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "question": "Acessibilidade / Usabilidade",
+    "values": [
+      {
+        "answer": "4",
+        "count": 276
+      },
+      {
+        "answer": "3",
+        "count": 427
+      },
+      {
+        "answer": "2",
+        "count": 179
+      },
+      {
+        "answer": "1",
+        "count": 59
+      },
+      {
+        "answer": "5",
+        "count": 61
+      },
+      {
+        "answer": "",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "question": "Qual SPA's (single-page application) você utiliza a maior parte das vezes no Front-end?",
+    "values": [
+      {
+        "answer": "Não uso",
+        "count": 236
+      },
+      {
+        "answer": "React",
+        "count": 312
+      },
+      {
+        "answer": "VueJS",
+        "count": 181
+      },
+      {
+        "answer": "Outro",
+        "count": 7
+      },
+      {
+        "answer": "Angular 2+",
+        "count": 208
+      },
+      {
+        "answer": "Angular 1.x",
+        "count": 2
+      },
+      {
+        "answer": "AngularJS",
+        "count": 23
+      },
+      {
+        "answer": "AngularJS 1",
+        "count": 1
+      },
+      {
+        "answer": "Polymer",
+        "count": 2
+      },
+      {
+        "answer": "jquery",
+        "count": 1
+      },
+      {
+        "answer": "AngularJs",
+        "count": 3
+      },
+      {
+        "answer": "Blaze(Meteor)",
+        "count": 1
+      },
+      {
+        "answer": "Meteor =/ =/ =/",
+        "count": 1
+      },
+      {
+        "answer": "Sencha ExtJS",
+        "count": 1
+      },
+      {
+        "answer": "emberjs",
+        "count": 1
+      },
+      {
+        "answer": "Angularjs",
+        "count": 3
+      },
+      {
+        "answer": "Angular1",
+        "count": 1
+      },
+      {
+        "answer": "Ionic",
+        "count": 1
+      },
+      {
+        "answer": "KnockoutJS",
+        "count": 1
+      },
+      {
+        "answer": "Knockout",
+        "count": 1
+      },
+      {
+        "answer": "Angularjs ",
+        "count": 3
+      },
+      {
+        "answer": "Vanillajs",
+        "count": 1
+      },
+      {
+        "answer": "angularjs",
+        "count": 1
+      },
+      {
+        "answer": "Angular 1.6",
+        "count": 1
+      },
+      {
+        "answer": "Angular 1",
+        "count": 3
+      },
+      {
+        "answer": "EmberJS",
+        "count": 2
+      },
+      {
+        "answer": "Elm",
+        "count": 1
+      },
+      {
+        "answer": "AngularJS (1)",
+        "count": 1
+      },
+      {
+        "answer": "RiotJs",
+        "count": 1
+      },
+      {
+        "answer": "angularjs (1.x)",
+        "count": 1
+      },
+      {
+        "answer": "Angular JS",
+        "count": 1
+      },
+      {
+        "answer": "Aurélia",
+        "count": 1
+      },
+      {
+        "answer": "Ember",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "question": "Participa ou é responsável pelo desenvolvimento Back-end?",
+    "values": [
+      {
+        "answer": "Participo pouco",
+        "count": 375
+      },
+      {
+        "answer": "Sou responsável pelo Back-end",
+        "count": 199
+      },
+      {
+        "answer": "Participo bastante",
+        "count": 201
+      },
+      {
+        "answer": "Não participo",
+        "count": 230
+      }
+    ]
+  },
+  {
+    "question": "Participa das decisões de produto?",
+    "values": [
+      {
+        "answer": "Participo pouco",
+        "count": 453
+      },
+      {
+        "answer": "Participo bastante",
+        "count": 394
+      },
+      {
+        "answer": "Não participo",
+        "count": 158
+      }
+    ]
+  },
+  {
+    "question": "Inglês",
+    "values": [
+      {
+        "answer": "5",
+        "count": 209
+      },
+      {
+        "answer": "3",
+        "count": 332
+      },
+      {
+        "answer": "4",
+        "count": 277
+      },
+      {
+        "answer": "1",
+        "count": 49
+      },
+      {
+        "answer": "2",
+        "count": 138
+      }
+    ]
+  },
+  {
+    "question": "Espanhol",
+    "values": [
+      {
+        "answer": "1",
+        "count": 518
+      },
+      {
+        "answer": "4",
+        "count": 34
+      },
+      {
+        "answer": "2",
+        "count": 244
+      },
+      {
+        "answer": "3",
+        "count": 135
+      },
+      {
+        "answer": "",
+        "count": 61
+      },
+      {
+        "answer": "5",
+        "count": 13
+      }
+    ]
+  },
+  {
+    "question": "Você tem um blog ou escreve artigos?",
+    "values": [
+      {
+        "answer": "false",
+        "count": 745
+      },
+      {
+        "answer": "true",
+        "count": 260
+      }
+    ]
+  },
+  {
+    "question": "Cria ou participa de projetos open source através do Github ou similares?",
+    "values": [
+      {
+        "answer": "true",
+        "count": 511
+      },
+      {
+        "answer": "false",
+        "count": 494
+      }
+    ]
+  },
+  {
+    "question": "Participa de grupos de discussão?",
+    "values": [
+      {
+        "answer": "true",
+        "count": 741
+      },
+      {
+        "answer": "false",
+        "count": 264
+      }
+    ]
+  },
+  {
+    "question": "Você utiliza em média, quantas horas semanais para escrever artigos, participar de projetos open-source, participar de discussões ou organizar eventos?",
+    "values": [
+      {
+        "answer": "2h",
+        "count": 263
+      },
+      {
+        "answer": "4h",
+        "count": 151
+      },
+      {
+        "answer": "16h ou mais",
+        "count": 19
+      },
+      {
+        "answer": "0h",
+        "count": 329
+      },
+      {
+        "answer": "1h",
+        "count": 188
+      },
+      {
+        "answer": "8h",
+        "count": 53
+      },
+      {
+        "answer": "",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "question": "Salário",
+    "values": [
+      {
+        "answer": "4",
+        "count": 431
+      },
+      {
+        "answer": "5",
+        "count": 272
+      },
+      {
+        "answer": "2",
+        "count": 28
+      },
+      {
+        "answer": "3",
+        "count": 261
+      },
+      {
+        "answer": "1",
+        "count": 13
+      }
+    ]
+  },
+  {
+    "question": "Ambiente de trabalho",
+    "values": [
+      {
+        "answer": "5",
+        "count": 641
+      },
+      {
+        "answer": "4",
+        "count": 287
+      },
+      {
+        "answer": "3",
+        "count": 63
+      },
+      {
+        "answer": "2",
+        "count": 9
+      },
+      {
+        "answer": "1",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "question": "Desenvolvimento técnico",
+    "values": [
+      {
+        "answer": "5",
+        "count": 655
+      },
+      {
+        "answer": "4",
+        "count": 282
+      },
+      {
+        "answer": "3",
+        "count": 60
+      },
+      {
+        "answer": "2",
+        "count": 6
+      },
+      {
+        "answer": "1",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "question": "Missão e valores da empresa",
+    "values": [
+      {
+        "answer": "5",
+        "count": 348
+      },
+      {
+        "answer": "4",
+        "count": 326
+      },
+      {
+        "answer": "3",
+        "count": 233
+      },
+      {
+        "answer": "2",
+        "count": 60
+      },
+      {
+        "answer": "1",
+        "count": 38
+      }
+    ]
+  },
+  {
+    "question": "Flexibilidade (horários, vestimentas)",
+    "values": [
+      {
+        "answer": "3",
+        "count": 192
+      },
+      {
+        "answer": "4",
+        "count": 270
+      },
+      {
+        "answer": "2",
+        "count": 46
+      },
+      {
+        "answer": "5",
+        "count": 483
+      },
+      {
+        "answer": "1",
+        "count": 14
+      }
+    ]
+  },
+  {
+    "question": "Distância da sua casa",
+    "values": [
+      {
+        "answer": "4",
+        "count": 241
+      },
+      {
+        "answer": "5",
+        "count": 408
+      },
+      {
+        "answer": "1",
+        "count": 46
+      },
+      {
+        "answer": "3",
+        "count": 257
+      },
+      {
+        "answer": "2",
+        "count": 53
+      }
+    ]
+  },
+  {
+    "question": "De quantos eventos você participa por ano?",
+    "values": [
+      {
+        "answer": "De 3 a 10",
+        "count": 252
+      },
+      {
+        "answer": "Acima de 10",
+        "count": 72
+      },
+      {
+        "answer": "Até 3",
+        "count": 513
+      },
+      {
+        "answer": "Nenhum",
+        "count": 164
+      },
+      {
+        "answer": "",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "question": "Já foi para eventos em outro estado?",
+    "values": [
+      {
+        "answer": "true",
+        "count": 383
+      },
+      {
+        "answer": "false",
+        "count": 620
+      },
+      {
+        "answer": "",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "question": "Classifique qual a importância pra você em participar de eventos (de 1 a 5)",
+    "values": [
+      {
+        "answer": "",
+        "count": 23
+      },
+      {
+        "answer": "4",
+        "count": 260
+      },
+      {
+        "answer": "5",
+        "count": 473
+      },
+      {
+        "answer": "3",
+        "count": 177
+      },
+      {
+        "answer": "2",
+        "count": 52
+      },
+      {
+        "answer": "1",
+        "count": 20
+      }
+    ]
+  }
+]
