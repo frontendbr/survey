@@ -2,7 +2,7 @@
 
 > Pesquisa salarial entre frontenders do Brasil
 
-[![license](https://img.shields.io/github/license/frontendbr/survey.svg)](./license.md)
+[![license](https://img.shields.io/github/license/frontendbr/survey.svg)](license)
 [![GitHub contributors](https://img.shields.io/github/contributors/frontendbr/survey.svg)](https://github.com/frontendbr/survey/graphs/contributors)
 
 ## Getting Started
@@ -25,13 +25,13 @@ https://gist.githubusercontent.com/diogomoretti/b010baa011ba8a29b31a48ce80d3b623
 
 ## About libs
 
-This project use [ChartJS](chartjs.org) to make a charts.
+This project use [ChartJS](http://www.chartjs.org/) to make a charts.
 
 ## About CSS
  
 ### Post CSS libs
 
-For grid system uses [Autoprefixer](https://github.com/postcss/autoprefixer) to make easy use browser prefixes, [Lost](https://github.com/peterramsing/lost) with some help from, [Rucksack](http://simplaio.github.io/rucksack/) for animations, reset and a lot of great mixins, [Rupture](https://github.com/jenius/rupture) for responsive utilities. And [Font Magician](https://github.com/jonathantneal/postcss-font-magician/) to get the webfonts.
+For grid system uses [Autoprefixer](https://github.com/postcss/autoprefixer) to make easy use browser prefixes, [Lost](https://github.com/peterramsing/lost) with some help from, [Rucksack](https://www.rucksackcss.org/) for animations, reset and a lot of great mixins, [Rupture](https://github.com/jenius/rupture) for responsive utilities. And [Font Magician](https://github.com/jonathantneal/postcss-font-magician/) to get the webfonts.
 
 ### CSS Modules
 
