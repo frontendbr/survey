@@ -1,0 +1,7 @@
+- var css = require('./hours-css.json');
+
+section(class=css.host) 
+  h1(class=css.title) Em média, você trabalha quantas horas por dia?
+
+  article(class=css.chart)
+    canvas(class=css.canvas width='300' height='300' data-chart='hours')
