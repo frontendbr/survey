@@ -13,6 +13,8 @@ import './components/experience/experience';
 import './components/level/level';
 import './components/backend/backend';
 import './components/product/product';
+import './components/blog/blog';
+import './components/opensource/opensource';
 import './components/footer/footer';
 
 offline.install({
