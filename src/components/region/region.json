@@ -4,6 +4,10 @@
     "count": 406
   }, 
   {
+    "answer": "Rio de Janeiro",
+    "count": 82
+  },
+  {
     "answer": "Minas Gerais",
     "count": 82
   },
@@ -16,10 +20,6 @@
     "count": 66
   },
   {
-    "answer": "Pernambuco",
-    "count": 28
-  },
-  {
     "answer": "Santa Catarina",
     "count": 50
   },
@@ -27,14 +27,6 @@
     "answer": "Rio Grande do Sul",
     "count": 44
   }, 
-  {
-    "answer": "Distrito Federal",
-    "count": 19
-  },
-  {
-    "answer": "Rio de Janeiro",
-    "count": 82
-  },
   {
     "answer": "Ceará",
     "count": 31
@@ -44,52 +36,44 @@
     "count": 30
   },
   {
-    "answer": "Alagoas",
-    "count": 10
-  },  
-  {
-    "answer": "Paraíba",
-    "count": 9
+    "answer": "Pernambuco",
+    "count": 28
   },
   {
-    "answer": "Sergipe",
-    "count": 6
-  },
-  {
-    "answer": "Rio Grande do Norte",
-    "count": 3
-  },
-  {
-    "answer": "Mato Grosso",
-    "count": 5
-  },
-  {
-    "answer": "Maranhão",
-    "count": 7
+    "answer": "Distrito Federal",
+    "count": 19
   },
   {
     "answer": "Goiás",
     "count": 17
   },
   {
-    "answer": "Piauí",
-    "count": 5
+    "answer": "Exterior",
+    "count": 16
   },
+  {
+    "answer": "Alagoas",
+    "count": 10
+  },  
   {
     "answer": "Espírito Santo",
     "count": 10
   }, 
   {
-    "answer": "Roraima",
-    "count": 1
+    "answer": "Paraíba",
+    "count": 9
   },
   {
-    "answer": "Mato Grosso do Sul",
-    "count": 1
+    "answer": "Maranhão",
+    "count": 7
   },
   {
-    "answer": "Exterior",
-    "count": 1
+    "answer": "Sergipe",
+    "count": 6
+  },
+  {
+    "answer": "Mato Grosso",
+    "count": 5
   },
   {
     "answer": "Amazonas",
@@ -99,6 +83,22 @@
     "answer": "Pará",
     "count": 3
   }, 
+  {
+    "answer": "Piauí",
+    "count": 5
+  },
+  {
+    "answer": "Rio Grande do Norte",
+    "count": 3
+  },
+  {
+    "answer": "Roraima",
+    "count": 1
+  },
+  {
+    "answer": "Mato Grosso do Sul",
+    "count": 1
+  },
   {
     "answer": "Acre",
     "count": 1

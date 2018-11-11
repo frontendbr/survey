@@ -4,20 +4,20 @@
     "count": 604
   },
   {
-    "answer": "R$1.000,00 a R$1.999,00",
-    "count": 99
-  },
-  {
-    "answer": "Acima de R$5.000,00",
-    "count": 29
-  },
-  {
     "answer": "Até R$1.000,00",
     "count": 172
   },
   {
+    "answer": "R$1.000,00 a R$1.999,00",
+    "count": 99
+  },
+  {
     "answer": "R$2.000,00 a R$2.999,00",
     "count": 48
+  },
+  {
+    "answer": "Acima de R$5.000,00",
+    "count": 29
   },
   {
     "answer": "R$3.000,00 a R$3.999,00",
