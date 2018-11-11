@@ -15,6 +15,7 @@ import './components/backend/backend';
 import './components/product/product';
 import './components/blog/blog';
 import './components/opensource/opensource';
+import './components/events/events';
 import './components/footer/footer';
 
 offline.install({
