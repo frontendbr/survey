@@ -11,6 +11,8 @@ import './components/salary/salary';
 import './components/freelas/freelas';
 import './components/experience/experience';
 import './components/level/level';
+import './components/backend/backend';
+import './components/product/product';
 import './components/footer/footer';
 
 offline.install({

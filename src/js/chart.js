@@ -24,10 +24,7 @@ const ChartDoughnut = ({ api, selector, quantity }) => new Chart(selector, {
       borderWidth: 2
     }]
   },
-  options: {
-    legend: {
-      position: 'left',
-    },
+  options: { 
     tooltips: {
       titleFontSize: 16,
       bodyFontSize: 16
