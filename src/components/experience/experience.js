@@ -1,6 +1,6 @@
 import './experience.styl';
 import Api from './experience.json';
-import { ChartDoughnut } from '../../js/chart-doughnut';
+import { ChartDoughnut } from '../../js/chart';
 
 const $selector = document.querySelector('[data-chart="experience"]');
 

@@ -1,6 +1,6 @@
 import './freelas.styl';
 import Api from './freelas.json';
-import { ChartDoughnut } from '../../js/chart-doughnut';
+import { ChartDoughnut } from '../../js/chart';
 
 const $selector = document.querySelector('[data-chart="freelas"]');
 

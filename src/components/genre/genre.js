@@ -1,6 +1,6 @@
 import './genre.styl';
 import Api from './genre.json';
-import { ChartDoughnut } from '../../js/chart-doughnut';
+import { ChartDoughnut } from '../../js/chart';
 
 const $selector = document.querySelector('[data-chart="genre"]');
 

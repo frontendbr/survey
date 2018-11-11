@@ -10,6 +10,7 @@ import './components/hours/hours';
 import './components/salary/salary';
 import './components/freelas/freelas';
 import './components/experience/experience';
+import './components/level/level';
 import './components/footer/footer';
 
 offline.install({

@@ -1,6 +1,6 @@
 import './job.styl';
 import Api from './job.json';
-import { ChartDoughnut } from '../../js/chart-doughnut';
+import { ChartDoughnut } from '../../js/chart';
 
 const $selector = document.querySelector('[data-chart="job"]');
 
