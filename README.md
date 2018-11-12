@@ -1,7 +1,8 @@
 # Survey Front-end Brasil
 
 > Pesquisa salarial entre frontenders do Brasil
- 
+
+![Travis](https://img.shields.io/travis/frontendbr/survey.svg)
 [![license](https://img.shields.io/github/license/frontendbr/survey.svg)](license)
 [![GitHub contributors](https://img.shields.io/github/contributors/frontendbr/survey.svg)](https://github.com/frontendbr/survey/graphs/contributors) 
  
