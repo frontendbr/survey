@@ -3,7 +3,7 @@
 > Pesquisa salarial entre frontenders do Brasil
 
 [![license](https://img.shields.io/github/license/frontendbr/survey.svg)](./license.md)
-[![GitHub contributors](https://img.shields.io/github/contributors/frontendbr/survey.svg)](https://github.com/frontendbr/survey/graphs/contributors)
+[![GitHub contributors](https://img.shields.io/github/contributors/frontendbr/survey.svg)](https://github.com/lfeh/survey/graphs/contributors)
 
 ## Getting Started
 
@@ -76,4 +76,4 @@ After the transformation it will become like this
 
 ## License
 
-MIT License © Front-end BR
+MIT License © Felipe Fialho
