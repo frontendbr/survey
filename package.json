@@ -1,9 +1,9 @@
 {
   "name": "survey",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "title": "Survey",
   "description": "Pesquisa salarial entre frontenders do Brasil",
-  "homepage": "https://github.com/LFeh/survey",
+  "homepage": "https://github.com/frontendbr/survey",
   "browserslist": [
     "> 1%",
     "last 2 versions"
