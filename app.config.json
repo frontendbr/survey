@@ -2,7 +2,7 @@
 	"title": "Survey - Front-End Brasil 2018",
 	"description": "Pesquisa salarial entre frontenders do Brasil",
 	"url": "https://github.com/frontendbr/survey",
-	"logo": "http://frontendbr.com.br/survey/images/logo.png",
+	"logo": "/images/logo.png",
 	"theme_color": "#333333",
 	"short_name": "Survey 2018",
 	"ga": "UA-40410936-3",
