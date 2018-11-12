@@ -1,0 +1,22 @@
+- var css = require('./events-css.json');
+
+section.section 
+  h1.title Sobre eventos
+
+  .subsection
+    h2.subtitle De quantos eventos você participa por ano?
+
+    article.chart
+      canvas.canvas(width='300' height='300' data-chart='events-total')
+
+  .subsection
+    h2.subtitle Já foi para eventos em outro estado?
+
+    article.chart
+      canvas.canvas(width='300' height='300' data-chart='events-out')
+
+  .subsection
+    h2.subtitle Classifique qual a importância pra você em participar de eventos (de 1 a 5)
+
+    article.chart
+      canvas.canvas(width='300' height='300' data-chart='events-importance')

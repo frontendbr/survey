@@ -1,7 +1,13 @@
 - var css = require('./introduction-css.json');
 
 section(class=css.host)
-  p(class=css.description)
-    span(class=css.big) #[span(class=css.yellow) 1]#[span(class=css.green) 0]#[span(class=css.yellow) 0]#[span(class=css.green) 5]
-    | Frontenders responderam essa pesquisa
-
+  div(class=css.container)
+    p(class=css.title)
+      span(class=css.big) #[span(class=css.yellow) 1]#[span(class=css.green) 0]#[span(class=css.yellow) 0]#[span(class=css.green) 5]
+      | Frontenders responderam essa pesquisa
+  
+    p(class=css.description) Você também pode ver os resultados da 
+      | gerado pelo #[a(class=css.link href='https://lfeh.typeform.com/report/Uh07u5/S9aMG9mkf9vNFJOY' target='_blank' rel='noopener noreferrer') Typeform]
+  
+    p(class=css.description) Caso deseje fazer uma analise mais profunda, todas as respostas estão compiladas 
+      | no #[a(class=css.link href='https://docs.google.com/spreadsheets/d/1EjNF3tH0gk5ew0SKrSdbJZqV9jxGtSXf9EXQzL8qLH8/edit?usp=sharing' target='_blank' rel='noopener noreferrer') Google Sheets] 

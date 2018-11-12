@@ -1,6 +1,6 @@
 import Chart from 'chart.js';
 import RandomColor from 'randomColor';
-import { ConvertToPercentage } from '../js/convert-to-percentage';
+import { ConvertToPercentage } from './convert-to-percentage';
 
 const getLabels = ({ api, quantity }) => api.map((item, i) => {
   return `${item.answer}: ${ConvertToPercentage({ portion: getValues(api)[i], quantity })}`;
@@ -24,11 +24,34 @@ const ChartDoughnut = ({ api, selector, quantity }) => new Chart(selector, {
       borderWidth: 2
     }]
   },
-  options: {
-    legend: {
-      position: 'left'
+  options: { 
+    tooltips: {
+      titleFontSize: 14,
+      bodyFontSize: 14
     }
   }
 });
 
-export { ChartDoughnut };
+const ChartBar = ({ api, selector, quantity }) => new Chart(selector, {
+  type: 'horizontalBar',
+  data: {
+    labels: getLabels({ api, quantity }),
+    datasets: [{
+      data: getValues(api),
+      backgroundColor: randomBlue(api),
+      borderColor: '#fff',
+      borderWidth: 2
+    }]
+  },
+  options: { 
+    legend: {
+      display: false,
+    },
+    tooltips: {
+      titleFontSize: 14,
+      bodyFontSize: 14
+    }
+  }
+});
+
+export { ChartDoughnut, ChartBar };

@@ -1,7 +1,7 @@
 import './region.styl';
 import Api from './region.json';
-import { ChartDoughnut } from '../../js/chart-doughnut';
+import { ChartBar } from '../../js/chart';
 
 const $selector = document.querySelector('[data-chart="region"]');
 
-ChartDoughnut({ api: Api, selector: $selector, quantity: 1005 });
+ChartBar({ api: Api, selector: $selector, quantity: 1005 });

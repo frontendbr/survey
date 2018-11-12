@@ -29,9 +29,24 @@ body
   font-smoothing auto
   overflow-x hidden
 
-.main 
-  > *
-    background-color $white
+:global(.section)
+  background-color $white
+  font-size 3rem
+  padding $space-lg $space
+  text-align center  
 
-    &:nth-child(odd)
-      background-color $gray-white
+  &:nth-child(even)
+    background-color $gray-white
+
+:global(.subsection)
+  &:not(:last-child)
+    margin-bottom $space-xlg
+
+:global(.comparation)
+  +above('md')
+    display flex
+
+
+:global(.comparation__content)
+  +above('md')
+    width 50%
