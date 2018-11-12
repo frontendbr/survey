@@ -1,7 +1,96 @@
 - var css = require('./salary-css.json');
 
 section.section 
-  h1.title Considerando apenas sua ocupação principal (CLT, PJ ou Freela), qual sua faixa salárial?
+  .subsection
+    h1.title Considerando apenas sua ocupação principal (CLT, PJ ou Freela), qual sua faixa salárial?
 
-  article.chart
-    canvas.canvas(width='300' height='300' data-chart='salary')
+    article.chart
+      canvas.canvas(width='300' height='300' data-chart='salary')
+
+  .subsection
+    h1.title Estágio
+
+    .comparation
+      .comparation__content
+        h2.subtitle Mulheres (13 respostas)
+
+        article.chart
+          canvas.canvas(width='300' height='300' data-chart='women-estag')
+
+      .comparation__content
+        h2.subtitle Homens (68 respostas)
+
+        article.chart
+          canvas.canvas(width='300' height='300' data-chart='men-estag')
+
+  .subsection
+    h1.title Júnior
+
+    .comparation
+      .comparation__content
+        h2.subtitle Mulheres (36 respostas)
+
+        article.chart
+          canvas.canvas(width='300' height='300' data-chart='women-jr')
+
+      .comparation__content
+        h2.subtitle Homens (432 respostas)
+
+        article.chart
+          canvas.canvas(width='300' height='300' data-chart='men-jr')
+
+  .subsection
+    h1.title Pleno
+
+    .comparation
+      .comparation__content
+        h2.subtitle Mulheres (42 respostas)
+
+        article.chart
+          canvas.canvas(width='300' height='300' data-chart='women-plann')
+
+      .comparation__content
+        h2.subtitle Homens (730 respostas)
+
+        article.chart
+          canvas.canvas(width='300' height='300' data-chart='men-plann')
+
+  .subsection
+    h1.title Senior
+
+    .comparation
+      .comparation__content
+        h2.subtitle Mulheres (16 respostas)
+
+        article.chart
+          canvas.canvas(width='300' height='300' data-chart='women-senior')
+
+      .comparation__content
+        h2.subtitle Homens (196 respostas)
+
+        article.chart
+          canvas.canvas(width='300' height='300' data-chart='men-senior')
+
+  .subsection
+    h1.title Especialista
+ 
+    h2.subtitle Homens (35 respostas)
+
+    article.chart
+      canvas.canvas(width='300' height='300' data-chart='men-specialist')
+
+  .subsection
+    h1.title Techlead
+
+    .comparation
+      .comparation__content
+        h2.subtitle Mulheres (2 respostas)
+
+        article.chart
+          canvas.canvas(width='300' height='300' data-chart='women-techlead')
+
+      .comparation__content
+        h2.subtitle Homens (40 respostas)
+
+        article.chart
+          canvas.canvas(width='300' height='300' data-chart='men-techlead')
