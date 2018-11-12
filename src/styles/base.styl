@@ -40,4 +40,13 @@ body
 
 :global(.subsection)
   &:not(:last-child)
-    margin-bottom $space-lg
+    margin-bottom $space-xlg
+
+:global(.comparation)
+  +above('md')
+    display flex
+
+
+:global(.comparation__content)
+  +above('md')
+    width 50%
