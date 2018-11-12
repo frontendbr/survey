@@ -26,8 +26,8 @@ const ChartDoughnut = ({ api, selector, quantity }) => new Chart(selector, {
   },
   options: { 
     tooltips: {
-      titleFontSize: 16,
-      bodyFontSize: 16
+      titleFontSize: 14,
+      bodyFontSize: 14
     }
   }
 });
@@ -48,8 +48,8 @@ const ChartBar = ({ api, selector, quantity }) => new Chart(selector, {
       display: false,
     },
     tooltips: {
-      titleFontSize: 16,
-      bodyFontSize: 16
+      titleFontSize: 14,
+      bodyFontSize: 14
     }
   }
 });
