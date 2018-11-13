@@ -9,7 +9,8 @@ const getLabels = ({ api, quantity }) => api.map((item, i) => {
 const getValues = (api) => api.map(item => item.count);
 
 const generateRandomColor = (api) => {
-  const { length } = getValues(api)
+  const { length } = getValues(api);
+
   return randomColor({
     count: length,
     seed: length,
