@@ -1,5 +1,5 @@
 import Chart from 'chart.js';
-import RandomColor from 'randomColor';
+import RandomColor from 'randomcolor';
 import { ConvertToPercentage } from './convert-to-percentage';
 
 const getLabels = ({ api, quantity }) => api.map((item, i) => {
@@ -8,10 +8,14 @@ const getLabels = ({ api, quantity }) => api.map((item, i) => {
 
 const getValues = (api) => api.map(item => item.count);
 
-const randomBlue = (api) => RandomColor({
-  count: getValues(api).length,
-  hue: '#5891ff'
-});
+const randomBlue = (api) => {
+  const { length } = getValues(api)
+  return RandomColor({
+    count: length,
+    seed: length,
+    luminosity: 'bright'
+  });
+};
 
 const ChartDoughnut = ({ api, selector, quantity }) => new Chart(selector, {
   type: 'doughnut',
@@ -24,7 +28,7 @@ const ChartDoughnut = ({ api, selector, quantity }) => new Chart(selector, {
       borderWidth: 2
     }]
   },
-  options: { 
+  options: {
     tooltips: {
       titleFontSize: 14,
       bodyFontSize: 14
@@ -43,7 +47,7 @@ const ChartBar = ({ api, selector, quantity }) => new Chart(selector, {
       borderWidth: 2
     }]
   },
-  options: { 
+  options: {
     legend: {
       display: false,
     },
