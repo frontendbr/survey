@@ -1,5 +1,5 @@
 import Chart from 'chart.js';
-import RandomColor from 'randomColor';
+import randomColor from 'randomcolor';
 import { ConvertToPercentage } from './convert-to-percentage';
 
 const getLabels = ({ api, quantity }) => api.map((item, i) => {
@@ -8,10 +8,14 @@ const getLabels = ({ api, quantity }) => api.map((item, i) => {
 
 const getValues = (api) => api.map(item => item.count);
 
-const randomBlue = (api) => RandomColor({
-  count: getValues(api).length,
-  hue: '#5891ff'
-});
+const generateRandomColor = (api) => {
+  const { length } = getValues(api)
+  return randomColor({
+    count: length,
+    seed: length,
+    luminosity: 'bright'
+  });
+};
 
 const ChartDoughnut = ({ api, selector, quantity }) => new Chart(selector, {
   type: 'doughnut',
@@ -19,12 +23,12 @@ const ChartDoughnut = ({ api, selector, quantity }) => new Chart(selector, {
     labels: getLabels({ api, quantity }),
     datasets: [{
       data: getValues(api),
-      backgroundColor: randomBlue(api),
+      backgroundColor: generateRandomColor(api),
       borderColor: '#fff',
       borderWidth: 2
     }]
   },
-  options: { 
+  options: {
     tooltips: {
       titleFontSize: 14,
       bodyFontSize: 14
@@ -38,12 +42,12 @@ const ChartBar = ({ api, selector, quantity }) => new Chart(selector, {
     labels: getLabels({ api, quantity }),
     datasets: [{
       data: getValues(api),
-      backgroundColor: randomBlue(api),
+      backgroundColor: generateRandomColor(api),
       borderColor: '#fff',
       borderWidth: 2
     }]
   },
-  options: { 
+  options: {
     legend: {
       display: false,
     },
