@@ -52,7 +52,7 @@ const baseWebpack = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].bundle.js',
-    publicPath: '/survey/'
+    publicPath: '/'
   },
   module: {
     rules: [
